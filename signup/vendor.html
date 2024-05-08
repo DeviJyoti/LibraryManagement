@@ -6,10 +6,41 @@
 </head>
 
 <body>
+    <div class="topdiv">
+        <button id="showChartBtn">Show Chart</button>
+        <a href="home.html"><button id="goBackBtn">Go Back</button></a>
+        
+        <div id="chartModal" class="modal">
+          <div class="modal-content">
+            <span class="close">&times;</span>
+            <img src="../Images/chart.PNG" alt="Chart Image">
+          </div>
+        </div>
+        <div class="pageHeader">
+            <h1>Welcome to Vendor Signup</h1>
+        </div>
+        
+    </div>
+      
+    <br>
 
-<h1>Welcome to Vendor Signup</h1>
-<br>
+    <form>
+        <label for="Name">Name:</label>
+        <input type="text" id="Name" name="Name" ><br>
+        <label for="Email">Email:</label>
+        <input type="text" id="Email" name="Email"><br>
+        <label for="Password">Password:</label>
+        <input type="password" id="Password" name="Password"><br>
+        <label for="Category">Category:</label>
+        <select name="Category" id="Category">
+        <option value="catering">catering</option>
+        <option value="florist">florist</option>
+        <option value="decoration">decoration</option>
+        <option value="lighting">lighting</option>
+        </select><br>
+        <button class="btn" type="submit">Sign Up</button>
+    </form>
 
-
+    <script src="../script.js"></script>
 </body>
 </html>
