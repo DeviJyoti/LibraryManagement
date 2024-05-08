@@ -1,15 +1,41 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Login</title>
+<title>Vendor - Login</title>
 <link rel="stylesheet" href="../CSS/global.css">
 </head>
 
 <body>
 
-<h1>Welcome to Vendor Login</h1>
-<br>
-
+    <div class="topdiv">
+        <button id="showChartBtn">Show Chart</button>
+        <a href="home.html"><button id="goBackBtn">Go Back</button></a>
+        
+        <div id="chartModal" class="modal">
+          <div class="modal-content">
+            <span class="close">&times;</span>
+            <img src="../Images/chart.PNG" alt="Chart Image">
+          </div>
+        </div>
+        <br>
+        <div class="pageHeader">
+            <h1>Welcome to Vendor Login</h1>
+        </div>
+        
+      </div>
+      
+      <br>
+      <form>
+        <label for="Name">User Name:</label>
+        <input type="text" id="Name" name="Name" placeholder="vendor"><br>
+        <label for="Password">Password:</label>
+        <input type="password" id="Password" name="Password" placeholder="vendor"><br>
+        <button class="btn" type="reset">Reset</button>
+        <!-- remove anchor tag during implementation -->
+        <a href="../Dashboards/vendor.html"><button class="btn" type="button">Login</button></a>
+    </form>
+      
+      <script src="../script.js"></script>
 
 </body>
 </html>

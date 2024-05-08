@@ -1,18 +1,33 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Login</title>
+<title>Login - Home Page</title>
 <link rel="stylesheet" href="../CSS/global.css">
 </head>
 
 <body>
+    <div class="topdiv">
+        <button id="showChartBtn">Show Chart</button>
+        <a href="../index.html"><button id="goBackBtn">Go Back</button></a>
+        <div id="chartModal" class="modal">
+          <div class="modal-content">
+            <span class="close">&times;</span>
+            <img src="../Images/chart.PNG" alt="Chart Image">
+          </div>
+        </div>
+        <br>
+        <div class="pageHeader">
+            <h1>Lets login to your account</h1>
+        </div>
+      </div>
 
-<h1>Lets login to your account</h1>
-<br>
-<a href="admin.html"><button class="btn" >Admin</button></a>
-<a href="vendor.html"><button class="btn" >Vendor</button></a>
-<a href="user.html"><button class="btn" >User</button></a>
+      <br>
 
+      <a href="admin.html"><button class="btn" >Admin</button></a>
+      <a href="vendor.html"><button class="btn" >Vendor</button></a>
+      <a href="user.html"><button class="btn" >User</button></a>
 
+            
+      <script src="../script.js"></script>
 </body>
 </html>
