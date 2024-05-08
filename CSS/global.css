@@ -171,3 +171,32 @@ input,select
   .dropdown:hover .dropdown-content {display: block;}
   
   .dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+.LeftBox
+{
+    display: inline-block;
+    text-align: left;
+    width:250px;
+}
+
+.RightBox
+{
+    display: inline-block;
+    width:150px;
+}
+
+.CentreBox
+{
+    width:500px;
+    margin:auto;
+}
+
+.Box.btn
+{
+    margin:0 auto;
+}
+
+.Box.btn
+{
+    margin:0 auto;
+}
