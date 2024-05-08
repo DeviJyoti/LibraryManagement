@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>AddItem - Vendor</title>
+<link rel="stylesheet" href="../CSS/global.css">
+</head>
+
+<body>
+    <div class="pageHeader long">
+        <h1 style="display: inline-block;text-align: left;">Add New Item</h1>
+        <div style="display: inline-block;">
+            <div style="display: flexbox; flex-direction: row-reverse;">
+                <a href="./ProductStatus.html"><button class="Header btn" type="button">Product Status</button></a>
+                <a href="#"><button class="Header btn" type="button">Request Item</button></a>
+                <a href="#"><button class="Header btn" type="button">View Product</button></a>
+                <a href="../index.html"><button class="Header btn" type="button">Logout</button></a>
+            </div> 
+        </div>  
+    </div>
+      
+    <br>
+      
+    <div style="display: inline-block; text-align: center;">
+        <div class="BoxyHeading" style="border-style:solid; border-radius: 4px; background-color: rgb(74, 133, 163);"><h1>Product Name</h1></div>
+        <div class="BoxyHeading" style="border-style:solid; border-radius: 4px; background-color: rgb(74, 133, 163);"><h1>Product Price</h1></div>
+        <div class="BoxyHeading" style="border-style:solid; border-radius: 4px; background-color: rgb(74, 133, 163);"><h1>Product Image</h1></div>
+        <a href="#"><button class="btn" type="button">Add The Product</button></a>
+    </div>
+
+    <div style="display: flexbox;">
+        <div style="height: 150px; display: inline-block;">
+            <label style="width: 170px;padding:10px;border-style:solid; border-radius: 4px; background-color: rgb(74, 133, 163);" for="ProductName">Product Name:</label>
+            <br>
+            <input style="width: 190px;" type="text" id="ProductName" name="ProductName" placeholder="Book">
+        </div>
+        <div style="height: 150px; display: inline-block;">
+            <label style="width: 170px;padding:10px;border-style:solid; border-radius: 4px; background-color: rgb(74, 133, 163);" for="ProductImage">Product Image:</label>
+            <br>
+            <input style="width: 190px;" type="file" id="ProductImage" name="ProductImage" placeholder="user">
+        </div> 
+        <div style="height: 150px; display: inline-block;">
+            <label style="width: 170px;padding:10px;border-style:solid; border-radius: 4px; background-color: rgb(74, 133, 163);" for="ProductPrice">Product Price:</label>
+            <br>
+            <input style="width: 190px;" type="text" id="ProductPrice" name="ProductPrice" placeholder="Rs/-">
+        </div> 
+        <div style="height: 150px; align-items:flex-start; display: inline-block;">
+            <label style="width: 170px;padding:10px;border-style:solid; border-radius: 4px; background-color: rgb(74, 133, 163);" for="ProductAction">Action:</label>
+            <br>
+            <input style="width:10px" type="radio" id="Delete" name="Action" value="Delete">
+            <label for="Delete">HTML</label><br>
+            <input style="width:10px" type="radio" id="Update" name="Action" value="Update">
+            <label for="Update">CSS</label><br>
+        </div>
+        
+    </div>
+    <script src="../script.js"></script>
+
+</body>
+</html>
